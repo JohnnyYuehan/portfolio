@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+.navbar {
+  background-color:rgba(30, 106, 192);
+  width:100%;
+  height:60px;
+  position:fixed;
+  top: 0;
+}
+
+nav ul {
+  float:right;
+}
+
+nav li {
+  display: inline-block;
+  font-color:white;
+}
+
+
+header {
+  background:rgba(0, 0, 0, 0) url("https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?cs=srgb&dl=america-architecture-bay-208745.jpg&fm=jpg") no-repeat top center ;
+    background-size: cover;
+    width:100%;
+    height:1000px;
+    text-align: center
+}
+
+header h1 {
+  padding-top: 400px;
+  font-size:48px;
+}
+.aboutme {
+    width:300px;
+    float:right;
+}
+
+section h3 {
+  color:tomato;
+}
