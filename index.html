@@ -4,16 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav class="navbar">
+      <section class="navbar-wrapper">
+      <div class="logo">
+        Yuehan Li
+      </div>
       <ul class="bars">
         <li class="nav-about-me">About Me</li>
         <li class="nav-skills">Skills</li>
         <li class="nav-projects">Projects</li>
         <li class="nav-contact">Contact</li>
       </ul>
+    </section>
     </nav>
     <header class="banner">
       <h1>Build Connection</h1>
@@ -26,26 +32,58 @@
       </h4>
     </section>
     <section class="skills">
+      <h3>Skills</h3>
       <div class="skills-container">
-        <h3>Skills</h3>
-        <div class="skills">
+        <div class="skills-item">
           <img src="images/html-logo.png" alt="HTML, CSS, Javascript">
+          <figcaption>HTML</figcaption>
+        </div>
+        <div class="skills-item">
           <img src="images/css-logo.png" alt="HTML, CSS, Javascript">
+          <figcaption>CSS</figcaption>
+        </div>
+        <div class="skills-item">
           <img src="images/js-logo.png" alt="HTML, CSS, Javascript">
+          <figcaption>JavaScript</figcaption>
+        </div>
+        <div class="skills-item">
           <img src="images/jquery-logo.jpg" alt="jQuery">
+          <figcaption>JQuery</figcaption>
         </div>
       </div>
     </section>
     <section class="projects">
       <h3>Projects</h3>
-
+      <div class="projects-item">
+        <div class="projects-display pic">
+          <a href="https://repl.it/@Yuehan/quzz">
+            <img src="images/quzz-app-screen-shot.png" alt="quzzScreenShot">
+          </a>
+        </div>
+        <div class="projects-display description">
+          <a href="https://repl.it/@Yuehan/quzz">
+            <h4>Animation Quzz App</h4>
+          </a>
+          <p>
+            This is an application helps you learn the Animation history in 1970s when animation starts to take a seat in our life!
+          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+          </ul>
+        </div>
+      </div>
     </section>
     <section class="contact">
-      <h3>Contact</h3>
       <div id="wufoo-zb69g5p1s9pt8c"> Fill out my <a href="https://yuehanli.wufoo.com/forms/zb69g5p1s9pt8c">online form</a>. </div> 
       
 
     </section>
+    <footer>
+      <p>©2019 Yuehan Li</p>
+    </footer>
     <script type="text/javascript"> var zb69g5p1s9pt8c; (function(d, t) { var s = d.createElement(t), options = { 'userName':'yuehanli', 'formHash':'zb69g5p1s9pt8c', 'autoResize':true, 'height':'522', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { zb69g5p1s9pt8c = new WufooForm(); zb69g5p1s9pt8c.initialize(options); zb69g5p1s9pt8c.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
     <script src="script.js"></script>
   </body>

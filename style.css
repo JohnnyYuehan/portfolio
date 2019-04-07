@@ -22,15 +22,27 @@
   height:60px;
   position:fixed;
   top: 0;
+  
+}
+
+.logo {
+  margin-top: 10px;
+  display: inline-block;
+  width:auto;
+  color:white;
+  font-family: 'Rancho', cursive;
+  font-size:40px;
 }
 
 nav ul {
   float:right;
+  margin-top: 20px;
 }
 
 nav li {
   display: inline-block;
-  font-color:white;
+  margin-left:15px;
+  color:white;
 }
 
 
@@ -46,11 +58,96 @@ header h1 {
   padding-top: 400px;
   font-size:48px;
 }
+
+section {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .aboutme {
     width:300px;
     float:right;
 }
 
+.about-me {
+  margin-top:40px;
+}
+
 section h3 {
   color:tomato;
+  margin-bottom:20px;
+  margin-top:10px;
+  font-size: 2rem;
 }
+
+section h4 {
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.skills-container {
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+}
+ .skills-item {
+   border:1px soild rgba(30, 106, 192);
+   width: 150px;
+   height: 150px;
+   margin-top: 15px;
+   text-align: center;
+ }
+
+ .skills-item figcaption {
+   margin-top: 8px;
+   color: rgba(30, 106, 192);
+ }
+
+.projects-display {
+  display:inline-block;
+  width:49%;
+  vertical-align: top;
+}
+
+ .projects-display img {
+   width:100%;
+ }
+
+ .projects-display.description {
+   padding-left:20px;
+
+ }
+
+ .projects-display.description h4 {
+   color:black;
+ }
+
+ .projects-display.description a {
+  color:black;
+  text-decoration: none;
+}
+
+ .projects-display.description ul {
+   margin-top:10px;
+ }
+
+ .projects-display.description li {
+   display:inline-block;
+   width:auto;
+   border: 1px solid grey;
+   padding:10px;
+ }
+
+ footer {
+   widows: 100%;
+   background-color:rgba(30, 106, 192);
+   text-align: center;
+
+ }
+
+ footer p {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color:white;
+ }
